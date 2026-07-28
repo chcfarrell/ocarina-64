@@ -129,10 +129,10 @@ footer a {
 /* BREAKPOINTS */
 @media (min-width: 576px) {
     main {
-        flex-direction: row;
-    }
+        display: grid;
+								grid-template-columns: auto auto;
+					}
+					
+					
 
-    section {
-        flex: 1;
-    }
 }
