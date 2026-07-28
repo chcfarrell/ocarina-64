@@ -133,6 +133,8 @@ footer a {
 								grid-template-columns: auto auto;
 					}
 					
-					
+					#fun-facts {
+							grid-row: 1 / span 2;
+			  }
 
 }
