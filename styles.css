@@ -55,9 +55,9 @@ table {
     --main-font: "Jersey 15", sans-serif;
     --gray: #9a9ba4;
     --dark-gray: #55565e;
-    --gold: #e8e2ae
-
-
+    --gold: #e8e2ae;
+    --blue: #0013e6;
+    --red: #f10e25;
 }
 
 /* MOBILE FIRST STYLES */
@@ -93,7 +93,7 @@ h2 {
     padding: 1rem;
 }
 
-section {
+section, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,4 +116,24 @@ iframe {
 section img {
     width: 100%;
     padding: 1.5rem;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+/* BREAKPOINTS */
+@media (min-width: 576px) {
+    main {
+        flex-direction: row;
+    }
+
+    section {
+        flex: 1;
+    }
 }
