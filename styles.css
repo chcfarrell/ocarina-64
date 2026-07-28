@@ -130,11 +130,11 @@ footer a {
 @media (min-width: 576px) {
     main {
         display: grid;
-								grid-template-columns: auto auto;
-					}
-					
-					#fun-facts {
-							grid-row: 1 / span 2;
-			  }
+        grid-template-columns: auto auto;
+    }
+            
+    #fun-facts {
+        grid-row: 1 / span 2;
+    }
 
 }
